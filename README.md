@@ -1,109 +1,103 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hani's Football Passion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+<body>
+    <header>
+        <img src="header-image.jpg" alt="Football Stadium">
+        <h1>Hani's Football Passion</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#players">Players</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
+    <section id="about">
+        <div class="container">
+            <h2>About Hani's Football Passion</h2>
+            <img src="about-image.jpg" alt="Football Field">
+            <p>Welcome to Hani's Football Passion, your ultimate destination for all things football! From thrilling match highlights to exclusive player interviews, we cover it all. Stay tuned for the latest updates and insights from the world of football.</p>
+        </div>
+    </section>
 
-header h1 {
-    font-size: 2.5rem;
-}
+    <section id="teams">
+        <div class="container">
+            <h2>Featured Teams</h2>
+            <div class="team">
+                <img src="manchester-united.png" alt="Manchester United">
+                <h3>Manchester United</h3>
+                <p>Get the latest news, match reviews, and player analysis of Manchester United.</p>
+            </div>
+            <div class="team">
+                <img src="barcelona.png" alt="FC Barcelona">
+                <h3>FC Barcelona</h3>
+                <p>Experience the magic of FC Barcelona with in-depth coverage and expert commentary.</p>
+            </div>
+        </div>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    margin-top: 20px;
-}
+    <section id="players">
+        <div class="container">
+            <h2>Star Players</h2>
+            <div class="player">
+                <img src="marcus-rashford.jpg" alt="Marcus Rashford">
+                <h3>Marcus Rashford</h3>
+                <p>Discover the talent and passion of Marcus Rashford and his impact on the football world.</p>
+            </div>
+            <div class="player">
+                <img src="lamine-yamal.jpg" alt="Lamine Yamal">
+                <h3>Lamine Yamal</h3>
+                <p>Explore the skills and achievements of Lamine Yamal, a rising star in the football scene.</p>
+            </div>
+        </div>
+    </section>
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+    <section id="gallery">
+        <div class="container">
+            <h2>In the Spotlight</h2>
+            <div class="gallery-image">
+                <img src="gallery-image1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-image">
+                <img src="gallery-image2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-image">
+                <img src="gallery-image3.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Have questions, feedback, or suggestions? We'd love to hear from you! Reach out to us using the form below.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
 
-section {
-    padding: 40px 0;
-}
+    <footer>
+        <p>&copy; 2024 Hani's Football Passion - All rights reserved.</p>
+    </footer>
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-}
+</body>
 
-.container .team,
-.container .player {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.container .team img,
-.container .player img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.container .team h3,
-.container .player h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.container .team p,
-.container .player p {
-    font-size: 1.1rem;
-}
-
-.container .gallery-image {
-    width: 33.33%;
-    float: left;
-    padding: 5px;
-}
-
-.container .gallery-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.container .gallery-image img:hover {
-    transform: scale(1.05);
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer p {
-    font-size: 1.1rem;
-}
+</html>
