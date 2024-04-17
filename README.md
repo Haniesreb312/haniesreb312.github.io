@@ -35,12 +35,12 @@
         <div class="container">
             <h2>Featured Teams</h2>
             <div class="team">
-                <img src="manchester-united.png" alt="Manchester United">
+                <img src="manchesterunited.jpg" alt="Manchester United">
                 <h3>Manchester United</h3>
                 <p>Get the latest news, match reviews, and player analysis of Manchester United.</p>
             </div>
             <div class="team">
-                <img src="barcelona.png" alt="FC Barcelona">
+                <img src="barca.jpg" alt="FC Barcelona">
                 <h3>FC Barcelona</h3>
                 <p>Experience the magic of FC Barcelona with in-depth coverage and expert commentary.</p>
             </div>
@@ -51,12 +51,12 @@
         <div class="container">
             <h2>Star Players</h2>
             <div class="player">
-                <img src="marcus-rashford.jpg" alt="Marcus Rashford">
+                <img src="MarcusRashford.jpg" alt="Marcus Rashford">
                 <h3>Marcus Rashford</h3>
                 <p>Discover the talent and passion of Marcus Rashford and his impact on the football world.</p>
             </div>
             <div class="player">
-                <img src="lamine-yamal.jpg" alt="Lamine Yamal">
+                <img src="lamine yamal.jpg" alt="Lamine Yamal">
                 <h3>Lamine Yamal</h3>
                 <p>Explore the skills and achievements of Lamine Yamal, a rising star in the football scene.</p>
             </div>
